@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Table structure for the calculator layout -->
+    <table border="1" align="center" cellspacing="25px" >
+        
+        <!-- Display area to show the current calculation -->
+        <tr>
+            <td id="display" colspan="4" ></td> <!-- This will show the calculation result -->
+        </tr>
+        <tr>
+            <td onclick="ac()">AC</td> <!-- Clears the display -->
+            <td onclick="del()">del</td> <!-- Deletes the last character -->
+            <td onclick="per('%')">%</td> 
+            <td onclick="cal('/')">/</td>
+        </tr>
+        <!-- Row for number buttons (1 to 4) -->
+        <tr>
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+            <td onclick="cal('9')">9</td>
+            <td onclick="cal('*')">*</td>
+        </tr>
+       
+        <!-- Row for number buttons (9, 0, 00, and decimal point) -->
+        <tr>
+            <td onclick="cal('4')">4</td>
+            <td onclick="cal('5')">5</td>
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('-')">-</td>
+        </tr>
+
+        <!-- Row for operation buttons (-, empty space, %, and division) -->
+        <tr>
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('2')">2</td> 
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('+')">+</td>
+        </tr>
+        <tr>
+            <td onclick="cal('0')">0</td>
+            <td onclick="cal('00')">00</td>
+            <td onclick="sq()">x²</td> <!-- Square the number -->
+            <td onclick="cal('.')">.</td> 
+        </tr>
+        <tr>
+            <td colspan="1" onclick="sqrt()">√</td>
+            <td colspan="1" onclick="cuberoot()">∛</td>
+            <td colspan="2" onclick="result()">Total</td> <!-- Displays the result -->
+        </tr>
+        <!-- Row for function buttons (del, AC, =) -->
+
+    </table>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+#content{
+    margin-top: 10%;
+    display: flex;
+    gap: 10%;
+    margin: 10% 40%;
+}
+
+h1{
+    font-size: 40px;
+    transition: all all;
+}
+
+
+

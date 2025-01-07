@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(#78d34a, #721558); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+table {
+    background: linear-gradient(#f8c291, #6a89cc); 
+    border-radius: 15px;
+    border: 0px solid black;
+}
+
+td {
+    background-color: #7D2646;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 30px;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+td:hover {
+    background-color: tomato;
+    transform: scale(1.10);
+}
+
+#display {
+    background-color: white;
+    color: black;
+    text-align: right;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 25px;
+}
+#display:hover{
+    transform: scale(1);
+}
+
