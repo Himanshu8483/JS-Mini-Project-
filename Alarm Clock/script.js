@@ -22,7 +22,7 @@ let setAlarm = () => {  // Define a function to set an alarm
         if (alarmTime == time) {  // Check if the current time matches the alarm time
             show.innerHTML = "Alarm Snoozing";  // Show a message indicating the alarm is ringing
             document.querySelector("#ring").play();  // Play the alarm sound
-            show.style.color = "green";  // Change the message color to red
+            show.style.color = "black" // Change the message color to black
 
             setTimeout(() => {  // Stop the alarm after 6 seconds
                 document.querySelector("#ring").pause();  // Pause the alarm sound

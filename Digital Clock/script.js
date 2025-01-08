@@ -11,4 +11,4 @@ setInterval(() => {
     let time = new Date(); // Get the current date
     let arr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     show.innerHTML = arr[time.getDay()]; // Display the name of the current day
-    show.style.color="#7B2658"
+    show.style.color="#0d4f7f"

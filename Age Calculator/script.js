@@ -5,6 +5,11 @@ let age = () => {
     let time = new Date(); // Get the current date
     let result = time.getFullYear() - show; // Calculate age (current year - birth year)
     let show1 = document.querySelector("#totalAge"); // Select the paragraph to display the result
-    show1.innerHTML = `<h2>You Are ${result} Year's Old</h2>`; // Display the calculated age
+    show1.innerHTML = `You Are ${result} Year's Old`; // Display the calculated age
     show1.style.color="#26317B"
+    
+    if(show==""){
+        show1.innerHTML="Please Enter Birth Year"
+    }
 };
+
