@@ -10,4 +10,4 @@ setInterval(() => {
     let show = document.querySelector("#target"); // Select the paragraph to display the result
     let time = new Date(); // Get the current date
     let arr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    show.innerHTML = `<span>${arr[time.getDay()]}</span>`; // Display the name of the current day
+    show.innerHTML = `<h2>${arr[time.getDay()]}</h2>`; // Display the name of the current day
