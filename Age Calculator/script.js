@@ -8,8 +8,15 @@ let age = () => {
     show1.innerHTML = `You Are ${result} Year's Old`; // Display the calculated age
     show1.style.color="#26317B"
     
-    if(show==""){
-        show1.innerHTML="Please Enter Birth Year"
+    if(show=="" || show.length!==4){
+        show1.innerHTML="Please Enter Valid Birth Year"
     }
 };
+let reset = ()=>{
+    let show1 = document.querySelector("#totalAge"); // Select the paragraph to display the result
+    show1.innerHTML=""  // Clear the paragraph text
+    document.querySelector("#text").value = ""; // Clear the input field
+}
+
+
 

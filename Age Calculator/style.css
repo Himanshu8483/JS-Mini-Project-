@@ -44,3 +44,9 @@ button:hover {
     transform: scale(1.05); 
     box-shadow: 0 6px 15px;
 }
+
+#reset {
+    position: absolute;
+    bottom: 100px;
+    left:  40%;
+}
