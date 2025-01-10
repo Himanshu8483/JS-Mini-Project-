@@ -1,6 +1,5 @@
 body{
     height: 100vh;
-    
     text-align: center;
     background: linear-gradient(#c0c292, #0a273c); 
     display: block;
@@ -19,7 +18,7 @@ h3{
 
 #content{
     margin: 0px auto ;
-    padding-top: 20px;
+    padding-top: 10px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -50,6 +49,8 @@ span{
     margin: 10px;
     letter-spacing: 10px;
     transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+
 }
 
 span:hover{
